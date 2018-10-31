@@ -1,11 +1,3 @@
-//
-//  DependencyManager.swift
-//  konfswift
-//
-//  Created by florent champigny on 30/10/2018.
-//  Copyright © 2018 Yan Zhulanow. All rights reserved.
-//
-
 import UIKit
 import common
 

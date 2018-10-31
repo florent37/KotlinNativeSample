@@ -24,9 +24,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // TODO: save context
     }
     
-    private func generateUuid() -> String {
-        return "ios-" + (UIDevice.current.identifierForVendor ?? UUID()).uuidString
-    }
 }
 
 func dependencies() -> DependencyManager {

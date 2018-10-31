@@ -49,7 +49,7 @@ class SessionsViewController: UIViewController, GithubView {
         self.userName.text = user.name
         self.company.text = user.company
         
-        self.image.sd_setImage(with: URL(string: user.avatar_url), placeholderImage: UIImage(named: "placeholder.png"))
+        self.image.sd_setImage(with: URL(string: user.avatar_url), placeholderImage: UIImage(named: "user_default"))
         self.image.layer.cornerRadius = self.image.frame.size.width/2
         self.image.clipsToBounds = true
         

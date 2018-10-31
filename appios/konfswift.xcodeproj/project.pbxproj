@@ -13,7 +13,6 @@
 		2C50FDA11F729FE000B3F845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C50FD9F1F729FE000B3F845 /* LaunchScreen.storyboard */; };
 		2C50FDAC1F729FE000B3F845 /* konfswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50FDAB1F729FE000B3F845 /* konfswiftTests.swift */; };
 		2C6393421F743F15004953A3 /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6393411F743F15004953A3 /* SessionsViewController.swift */; };
-		2CA847C1214BA6F8000A094C /* Pods_konfswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4F0183213ED71700FCD207 /* Pods_konfswift.framework */; };
 		6F254FB1C8A15F5393A98E9A /* Pods_konfswiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA84E09CE082A09696F42F6 /* Pods_konfswiftTests.framework */; };
 		78F1837816258F26549E4A30 /* Pods_konfswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650713D8A409168EDA5FA1DE /* Pods_konfswift.framework */; };
 		D30D00A8214D087900CD1184 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D00A7214D087900CD1184 /* UI.swift */; };
@@ -49,16 +48,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2C4F0183213ED71700FCD207 /* Pods_konfswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_konfswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C4F0186213ED71700FCD207 /* Pods_konfswiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_konfswiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C4F018A213ED72700FCD207 /* konfios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = konfios.framework; path = build/konan/bin/xcode/konfios.framework; sourceTree = "<group>"; };
-		2C50FD901F729FE000B3F845 /* konfswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = konfswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C50FD901F729FE000B3F845 /* appswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C50FD931F729FE000B3F845 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C50FD981F729FE000B3F845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C50FD9D1F729FE000B3F845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C50FDA01F729FE000B3F845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C50FDA21F729FE000B3F845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C50FDA71F729FE000B3F845 /* konfswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = konfswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C50FDA71F729FE000B3F845 /* appswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C50FDAB1F729FE000B3F845 /* konfswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = konfswiftTests.swift; sourceTree = "<group>"; };
 		2C50FDAD1F729FE000B3F845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C6393411F743F15004953A3 /* SessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +71,6 @@
 		E53662802188660600801175 /* DependencyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyManager.swift; sourceTree = "<group>"; };
 		E53662822188940D00801175 /* PlatformLoggerIos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformLoggerIos.swift; sourceTree = "<group>"; };
 		ECEBBE2F215D3E02006A5027 /* common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = common.framework; path = build/konan/bin/xcode/common.framework; sourceTree = "<group>"; };
-		ECEBBE31215D3EAE006A5027 /* common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = common.framework; path = build/konan/bin/xcode/common.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +79,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5099D192189CE6A00BCAF67 /* common.framework in Frameworks */,
-				2CA847C1214BA6F8000A094C /* Pods_konfswift.framework in Frameworks */,
 				78F1837816258F26549E4A30 /* Pods_konfswift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,11 +97,7 @@
 		2C50FD871F729FE000B3F845 = {
 			isa = PBXGroup;
 			children = (
-				ECEBBE31215D3EAE006A5027 /* common.framework */,
 				E5099D182189CE6A00BCAF67 /* common.framework */,
-				2C4F018A213ED72700FCD207 /* konfios.framework */,
-				2C4F0186213ED71700FCD207 /* Pods_konfswiftTests.framework */,
-				2C4F0183213ED71700FCD207 /* Pods_konfswift.framework */,
 				2C63934B1F744CA4004953A3 /* LICENSE.md */,
 				2C50FD921F729FE000B3F845 /* konfswift */,
 				2C50FDAA1F729FE000B3F845 /* konfswiftTests */,
@@ -120,8 +110,8 @@
 		2C50FD911F729FE000B3F845 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C50FD901F729FE000B3F845 /* konfswift.app */,
-				2C50FDA71F729FE000B3F845 /* konfswiftTests.xctest */,
+				2C50FD901F729FE000B3F845 /* appswift.app */,
+				2C50FDA71F729FE000B3F845 /* appswiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,9 +182,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C50FD8F1F729FE000B3F845 /* konfswift */ = {
+		2C50FD8F1F729FE000B3F845 /* appswift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C50FDB01F729FE000B3F845 /* Build configuration list for PBXNativeTarget "konfswift" */;
+			buildConfigurationList = 2C50FDB01F729FE000B3F845 /* Build configuration list for PBXNativeTarget "appswift" */;
 			buildPhases = (
 				7006F57325EE5C6D0EA1AF0B /* [CP] Check Pods Manifest.lock */,
 				B3E81DE6206406DE0098BCD7 /* Compile Kotlin Framework */,
@@ -208,14 +198,14 @@
 			);
 			dependencies = (
 			);
-			name = konfswift;
+			name = appswift;
 			productName = konfswift;
-			productReference = 2C50FD901F729FE000B3F845 /* konfswift.app */;
+			productReference = 2C50FD901F729FE000B3F845 /* appswift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2C50FDA61F729FE000B3F845 /* konfswiftTests */ = {
+		2C50FDA61F729FE000B3F845 /* appswiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C50FDB31F729FE000B3F845 /* Build configuration list for PBXNativeTarget "konfswiftTests" */;
+			buildConfigurationList = 2C50FDB31F729FE000B3F845 /* Build configuration list for PBXNativeTarget "appswiftTests" */;
 			buildPhases = (
 				0C8F18CB4EE392D5D96F28F3 /* [CP] Check Pods Manifest.lock */,
 				2C50FDA31F729FE000B3F845 /* Sources */,
@@ -227,9 +217,9 @@
 			dependencies = (
 				2C50FDA91F729FE000B3F845 /* PBXTargetDependency */,
 			);
-			name = konfswiftTests;
+			name = appswiftTests;
 			productName = konfswiftTests;
-			productReference = 2C50FDA71F729FE000B3F845 /* konfswiftTests.xctest */;
+			productReference = 2C50FDA71F729FE000B3F845 /* appswiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -269,8 +259,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C50FD8F1F729FE000B3F845 /* konfswift */,
-				2C50FDA61F729FE000B3F845 /* konfswiftTests */,
+				2C50FD8F1F729FE000B3F845 /* appswift */,
+				2C50FDA61F729FE000B3F845 /* appswiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -393,7 +383,7 @@
 /* Begin PBXTargetDependency section */
 		2C50FDA91F729FE000B3F845 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2C50FD8F1F729FE000B3F845 /* konfswift */;
+			target = 2C50FD8F1F729FE000B3F845 /* appswift */;
 			targetProxy = 2C50FDA81F729FE000B3F845 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -549,7 +539,7 @@
 				INFOPLIST_FILE = konfswift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.e5l;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.florent37;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -579,7 +569,7 @@
 				INFOPLIST_FILE = konfswift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.e5l;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.florent37;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -633,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C50FDB01F729FE000B3F845 /* Build configuration list for PBXNativeTarget "konfswift" */ = {
+		2C50FDB01F729FE000B3F845 /* Build configuration list for PBXNativeTarget "appswift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C50FDB11F729FE000B3F845 /* Debug */,
@@ -642,7 +632,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C50FDB31F729FE000B3F845 /* Build configuration list for PBXNativeTarget "konfswiftTests" */ = {
+		2C50FDB31F729FE000B3F845 /* Build configuration list for PBXNativeTarget "appswiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C50FDB41F729FE000B3F845 /* Debug */,
