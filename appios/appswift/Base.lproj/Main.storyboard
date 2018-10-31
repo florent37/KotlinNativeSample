@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Repos-->
+        <!--Github App-->
         <scene sceneID="5x6-vS-IzC">
             <objects>
-                <viewController id="ze2-eh-Zhl" customClass="SessionsViewController" customModule="appswift" sceneMemberID="viewController">
+                <viewController id="ze2-eh-Zhl" customClass="GithubViewController" customModule="appswift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="W2C-nz-7FZ"/>
                         <viewControllerLayoutGuide type="bottom" id="ZSN-rU-Q6C"/>
@@ -81,10 +81,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9E-Tb-L7Y">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="company name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9E-Tb-L7Y">
                                 <rect key="frame" x="195" y="385" width="164" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -106,13 +106,13 @@
                             <constraint firstItem="l08-Wn-cDt" firstAttribute="leading" secondItem="sTo-N0-E2w" secondAttribute="leadingMargin" constant="90" id="kO9-09-252"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Repos" largeTitleDisplayMode="never" id="Zoa-ze-bjj"/>
+                    <navigationItem key="navigationItem" title="Github App" largeTitleDisplayMode="never" id="Zoa-ze-bjj"/>
                     <connections>
-                        <outlet property="company" destination="O9E-Tb-L7Y" id="3QF-LY-eky"/>
-                        <outlet property="image" destination="59n-zH-Dkc" id="mUo-1l-PjY"/>
-                        <outlet property="progressView" destination="buv-FW-Tgg" id="TEg-Jk-pQW"/>
-                        <outlet property="userName" destination="cjX-CA-B69" id="ITm-og-QdC"/>
-                        <outlet property="userSearch" destination="eZQ-ut-UxW" id="Bcq-6Q-37C"/>
+                        <outlet property="company" destination="O9E-Tb-L7Y" id="Tbh-L0-t0L"/>
+                        <outlet property="image" destination="59n-zH-Dkc" id="xbY-xn-TjF"/>
+                        <outlet property="progressView" destination="buv-FW-Tgg" id="j7w-ON-7kI"/>
+                        <outlet property="userName" destination="cjX-CA-B69" id="p9V-lJ-cV0"/>
+                        <outlet property="userSearch" destination="eZQ-ut-UxW" id="sar-XT-Po7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1qk-3E-Qys" userLabel="First Responder" sceneMemberID="firstResponder"/>

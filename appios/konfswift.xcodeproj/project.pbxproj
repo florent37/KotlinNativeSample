@@ -12,13 +12,12 @@
 		2C50FD9E1F729FE000B3F845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C50FD9D1F729FE000B3F845 /* Assets.xcassets */; };
 		2C50FDA11F729FE000B3F845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C50FD9F1F729FE000B3F845 /* LaunchScreen.storyboard */; };
 		2C50FDAC1F729FE000B3F845 /* appswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50FDAB1F729FE000B3F845 /* appswiftTests.swift */; };
-		2C6393421F743F15004953A3 /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6393411F743F15004953A3 /* SessionsViewController.swift */; };
+		2C6393421F743F15004953A3 /* GithubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6393411F743F15004953A3 /* GithubViewController.swift */; };
 		6F254FB1C8A15F5393A98E9A /* Pods_konfswiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA84E09CE082A09696F42F6 /* Pods_konfswiftTests.framework */; };
 		78F1837816258F26549E4A30 /* Pods_konfswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650713D8A409168EDA5FA1DE /* Pods_konfswift.framework */; };
 		D30D00A8214D087900CD1184 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D00A7214D087900CD1184 /* UI.swift */; };
 		E5099D192189CE6A00BCAF67 /* common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5099D182189CE6A00BCAF67 /* common.framework */; };
 		E5099D1A2189CE6A00BCAF67 /* common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E5099D182189CE6A00BCAF67 /* common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E536627F218864F700801175 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E536627E218864F700801175 /* RepoTableViewCell.swift */; };
 		E53662812188660600801175 /* DependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53662802188660600801175 /* DependencyManager.swift */; };
 		E53662832188940D00801175 /* PlatformLoggerIos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53662822188940D00801175 /* PlatformLoggerIos.swift */; };
 /* End PBXBuildFile section */
@@ -57,7 +56,7 @@
 		2C50FDA71F729FE000B3F845 /* appswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C50FDAB1F729FE000B3F845 /* appswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appswiftTests.swift; sourceTree = "<group>"; };
 		2C50FDAD1F729FE000B3F845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C6393411F743F15004953A3 /* SessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsViewController.swift; sourceTree = "<group>"; };
+		2C6393411F743F15004953A3 /* GithubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubViewController.swift; sourceTree = "<group>"; };
 		2C63934B1F744CA4004953A3 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		3AD1B286AB3044DE546C83D1 /* Pods-konfswift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-konfswift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-konfswift/Pods-konfswift.debug.xcconfig"; sourceTree = "<group>"; };
 		3F8F328F75A7A47133925362 /* Pods-konfswiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-konfswiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-konfswiftTests/Pods-konfswiftTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,7 +66,6 @@
 		A41FE60CFCB7748B63FEC8FD /* Pods-konfswift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-konfswift.release.xcconfig"; path = "Pods/Target Support Files/Pods-konfswift/Pods-konfswift.release.xcconfig"; sourceTree = "<group>"; };
 		D30D00A7214D087900CD1184 /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
 		E5099D182189CE6A00BCAF67 /* common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = common.framework; path = ../common/build/bin/ios/main/debug/framework/common.framework; sourceTree = "<group>"; };
-		E536627E218864F700801175 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
 		E53662802188660600801175 /* DependencyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyManager.swift; sourceTree = "<group>"; };
 		E53662822188940D00801175 /* PlatformLoggerIos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformLoggerIos.swift; sourceTree = "<group>"; };
 		ECEBBE2F215D3E02006A5027 /* common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = common.framework; path = build/konan/bin/xcode/common.framework; sourceTree = "<group>"; };
@@ -140,9 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				2C50FD931F729FE000B3F845 /* AppDelegate.swift */,
-				2C6393411F743F15004953A3 /* SessionsViewController.swift */,
+				2C6393411F743F15004953A3 /* GithubViewController.swift */,
 				D30D00A7214D087900CD1184 /* UI.swift */,
-				E536627E218864F700801175 /* RepoTableViewCell.swift */,
 				E53662802188660600801175 /* DependencyManager.swift */,
 				E53662822188940D00801175 /* PlatformLoggerIos.swift */,
 			);
@@ -363,8 +360,7 @@
 			files = (
 				D30D00A8214D087900CD1184 /* UI.swift in Sources */,
 				E53662812188660600801175 /* DependencyManager.swift in Sources */,
-				2C6393421F743F15004953A3 /* SessionsViewController.swift in Sources */,
-				E536627F218864F700801175 /* RepoTableViewCell.swift in Sources */,
+				2C6393421F743F15004953A3 /* GithubViewController.swift in Sources */,
 				2C50FD941F729FE000B3F845 /* AppDelegate.swift in Sources */,
 				E53662832188940D00801175 /* PlatformLoggerIos.swift in Sources */,
 			);

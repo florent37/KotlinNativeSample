@@ -16,12 +16,12 @@ import org.jetbrains.kotlinconf.model.UserModel
 
 class GithubFragment : Fragment(), GithubView {
 
+    private val presenter by lazy { dependencies(context!!).githubPresenter() }
+
     override var isLoading: Boolean = false
         set(value) {
             loader?.visibility = if(value) View.VISIBLE else View.GONE
         }
-
-    private val presenter by lazy { dependencies(context!!).githubPresenter() }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?) =
             layoutInflater.inflate(R.layout.fragment_user, container, false)
@@ -45,14 +45,13 @@ class GithubFragment : Fragment(), GithubView {
         presenter.unbind()
     }
 
-    override fun displayRepos(repos: List<Repository>) {
-    }
-
     override fun displayUser(user: UserModel) {
         userName.text = user.name
         company.text = user.company
         Glide.with(this).load(user.avatar_url).into(userImage)
-        Log.d("test", user.toString())
+    }
+
+    override fun displayRepos(repos: List<Repository>) {
     }
 
     override fun showError(error: Throwable) {

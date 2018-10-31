@@ -2,7 +2,7 @@ package org.jetbrains.kotlinconf.storage
 
 import platform.Foundation.*
 
-class PlatformSettings public constructor() : Settings {
+class PlatformSettings : Settings {
     private val delegate: NSUserDefaults = NSUserDefaults.standardUserDefaults()
 
     override fun putString(key: String, value: String) {

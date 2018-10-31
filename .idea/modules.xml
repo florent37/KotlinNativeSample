@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/common/common_commonTest.iml" filepath="$PROJECT_DIR$/common/common_commonTest.iml" group="common" />
       <module fileurl="file://$PROJECT_DIR$/common/common_iosMain.iml" filepath="$PROJECT_DIR$/common/common_iosMain.iml" group="common" />
       <module fileurl="file://$PROJECT_DIR$/common/common_iosTest.iml" filepath="$PROJECT_DIR$/common/common_iosTest.iml" group="common" />
-      <module fileurl="file://$PROJECT_DIR$/common/common_jvmMain.iml" filepath="$PROJECT_DIR$/common/common_jvmMain.iml" group="common" />
       <module fileurl="file://$PROJECT_DIR$/common/common_jvmTest.iml" filepath="$PROJECT_DIR$/common/common_jvmTest.iml" group="common" />
       <module fileurl="file://$PROJECT_DIR$/kotlinnative-app.iml" filepath="$PROJECT_DIR$/kotlinnative-app.iml" />
     </modules>

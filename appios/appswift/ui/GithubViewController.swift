@@ -1,12 +1,14 @@
 import UIKit
 import common
 
-class SessionsViewController: UIViewController, GithubView {
+class GithubViewController: UIViewController, GithubView {
     
     @IBOutlet weak var progressView: UIActivityIndicatorView!
-    @IBOutlet weak var userSearch: UITextField!
     
-   // private var repos: [Repository] = []
+    @IBOutlet weak var progress: UIActivityIndicatorView!
+    @IBOutlet weak var userSearch: UITextField!
+   
+    // private var repos: [Repository] = []
     @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var userName: UILabel!
     @IBOutlet weak var company: UILabel!
@@ -32,17 +34,10 @@ class SessionsViewController: UIViewController, GithubView {
     
     override func viewDidLoad() {
         presenter.bind(view: self)
-        
-        //presenter.loadUser(name: "florent37")
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         presenter.unbind()
-    }
-
-    
-    func showError(error: KotlinThrowable) {
-        dependencies().logger.logException(tag: "TAG", text: error.message!, exception: error as! KotlinException)
     }
     
     func displayUser(user: UserModel) {
@@ -52,8 +47,11 @@ class SessionsViewController: UIViewController, GithubView {
         self.image.sd_setImage(with: URL(string: user.avatar_url), placeholderImage: UIImage(named: "user_default"))
         self.image.layer.cornerRadius = self.image.frame.size.width/2
         self.image.clipsToBounds = true
-        
-        dependencies().logger.log(tag: "tag", text: user.description)
+    }
+    
+    
+    func showError(error: KotlinThrowable) {
+        dependencies().logger.logException(tag: "TAG", text: error.message!, exception: error as! KotlinException)
     }
     
     func displayRepos(repos: [Repository]) {
