@@ -1,4 +1,4 @@
-rootProject.name = 'kotlinconf-app'
+rootProject.name = 'kotlinnative-app'
 
 enableFeaturePreview('GRADLE_METADATA')
 
