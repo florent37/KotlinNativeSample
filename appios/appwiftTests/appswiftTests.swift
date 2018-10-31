@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import konfswift
+@testable import appswift
 
 class konfswiftTests: XCTestCase {
     

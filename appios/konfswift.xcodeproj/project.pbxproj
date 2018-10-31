@@ -11,7 +11,7 @@
 		2C50FD991F729FE000B3F845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C50FD971F729FE000B3F845 /* Main.storyboard */; };
 		2C50FD9E1F729FE000B3F845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C50FD9D1F729FE000B3F845 /* Assets.xcassets */; };
 		2C50FDA11F729FE000B3F845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C50FD9F1F729FE000B3F845 /* LaunchScreen.storyboard */; };
-		2C50FDAC1F729FE000B3F845 /* konfswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50FDAB1F729FE000B3F845 /* konfswiftTests.swift */; };
+		2C50FDAC1F729FE000B3F845 /* appswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50FDAB1F729FE000B3F845 /* appswiftTests.swift */; };
 		2C6393421F743F15004953A3 /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6393411F743F15004953A3 /* SessionsViewController.swift */; };
 		6F254FB1C8A15F5393A98E9A /* Pods_konfswiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA84E09CE082A09696F42F6 /* Pods_konfswiftTests.framework */; };
 		78F1837816258F26549E4A30 /* Pods_konfswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650713D8A409168EDA5FA1DE /* Pods_konfswift.framework */; };
@@ -55,7 +55,7 @@
 		2C50FDA01F729FE000B3F845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C50FDA21F729FE000B3F845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C50FDA71F729FE000B3F845 /* appswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C50FDAB1F729FE000B3F845 /* konfswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = konfswiftTests.swift; sourceTree = "<group>"; };
+		2C50FDAB1F729FE000B3F845 /* appswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appswiftTests.swift; sourceTree = "<group>"; };
 		2C50FDAD1F729FE000B3F845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C6393411F743F15004953A3 /* SessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsViewController.swift; sourceTree = "<group>"; };
 		2C63934B1F744CA4004953A3 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
@@ -99,8 +99,8 @@
 			children = (
 				E5099D182189CE6A00BCAF67 /* common.framework */,
 				2C63934B1F744CA4004953A3 /* LICENSE.md */,
-				2C50FD921F729FE000B3F845 /* konfswift */,
-				2C50FDAA1F729FE000B3F845 /* konfswiftTests */,
+				2C50FD921F729FE000B3F845 /* appswift */,
+				2C50FDAA1F729FE000B3F845 /* appwiftTests */,
 				2C50FD911F729FE000B3F845 /* Products */,
 				79E372A74DFD6804A955E2D9 /* Pods */,
 				C4FEB15DDCA083DE8665D19F /* Frameworks */,
@@ -116,7 +116,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C50FD921F729FE000B3F845 /* konfswift */ = {
+		2C50FD921F729FE000B3F845 /* appswift */ = {
 			isa = PBXGroup;
 			children = (
 				2C63933F1F743EDE004953A3 /* ui */,
@@ -124,16 +124,16 @@
 				2C50FD971F729FE000B3F845 /* Main.storyboard */,
 				2C50FDA21F729FE000B3F845 /* Info.plist */,
 			);
-			path = konfswift;
+			path = appswift;
 			sourceTree = "<group>";
 		};
-		2C50FDAA1F729FE000B3F845 /* konfswiftTests */ = {
+		2C50FDAA1F729FE000B3F845 /* appwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				2C50FDAB1F729FE000B3F845 /* konfswiftTests.swift */,
+				2C50FDAB1F729FE000B3F845 /* appswiftTests.swift */,
 				2C50FDAD1F729FE000B3F845 /* Info.plist */,
 			);
-			path = konfswiftTests;
+			path = appwiftTests;
 			sourceTree = "<group>";
 		};
 		2C63933F1F743EDE004953A3 /* ui */ = {
@@ -374,7 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C50FDAC1F729FE000B3F845 /* konfswiftTests.swift in Sources */,
+				2C50FDAC1F729FE000B3F845 /* appswiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,7 +536,7 @@
 					"$(PROJECT_DIR)/build/konan/bin/xcode",
 					"$(PROJECT_DIR)/build/konan/bin/xcode/ios_x64",
 				);
-				INFOPLIST_FILE = konfswift/Info.plist;
+				INFOPLIST_FILE = appswift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.florent37;
@@ -566,7 +566,7 @@
 					"$(PROJECT_DIR)/build/konan/bin/xcode",
 					"$(PROJECT_DIR)/build/konan/bin/xcode/ios_x64",
 				);
-				INFOPLIST_FILE = konfswift/Info.plist;
+				INFOPLIST_FILE = appswift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.florent37;
@@ -586,7 +586,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = PYJ26U4KNX;
-				INFOPLIST_FILE = konfswiftTests/Info.plist;
+				INFOPLIST_FILE = appswiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.kotlinlang.konfswiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -602,7 +602,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = PYJ26U4KNX;
-				INFOPLIST_FILE = konfswiftTests/Info.plist;
+				INFOPLIST_FILE = appswiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.kotlinlang.konfswiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
