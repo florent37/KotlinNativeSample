@@ -1,4 +1,4 @@
-package org.jetbrains.kotlinconf.storage
+package com.github.florent37.kotlinnative.storage
 
 import platform.Foundation.*
 
