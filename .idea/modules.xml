@@ -5,13 +5,13 @@
       <module fileurl="file://$PROJECT_DIR$/android/android.iml" filepath="$PROJECT_DIR$/android/android.iml" />
       <module fileurl="file://$PROJECT_DIR$/android/app/app.iml" filepath="$PROJECT_DIR$/android/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/common/common_commonMain.iml" filepath="$PROJECT_DIR$/common/common_commonMain.iml" group="common" />
-      <module fileurl="file://$PROJECT_DIR$/common/common_commonTest.iml" filepath="$PROJECT_DIR$/common/common_commonTest.iml" group="common" />
-      <module fileurl="file://$PROJECT_DIR$/common/common_iosMain.iml" filepath="$PROJECT_DIR$/common/common_iosMain.iml" group="common" />
-      <module fileurl="file://$PROJECT_DIR$/common/common_iosTest.iml" filepath="$PROJECT_DIR$/common/common_iosTest.iml" group="common" />
-      <module fileurl="file://$PROJECT_DIR$/common/common_jvmMain.iml" filepath="$PROJECT_DIR$/common/common_jvmMain.iml" group="common" />
-      <module fileurl="file://$PROJECT_DIR$/common/common_jvmTest.iml" filepath="$PROJECT_DIR$/common/common_jvmTest.iml" group="common" />
       <module fileurl="file://$PROJECT_DIR$/kotlinnative-app.iml" filepath="$PROJECT_DIR$/kotlinnative-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/kotlinnative-app.common.commonMain.iml" filepath="$PROJECT_DIR$/common/kotlinnative-app.common.commonMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/kotlinnative-app.common.commonTest.iml" filepath="$PROJECT_DIR$/common/kotlinnative-app.common.commonTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/kotlinnative-app.common.iosMain.iml" filepath="$PROJECT_DIR$/common/kotlinnative-app.common.iosMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/kotlinnative-app.common.iosTest.iml" filepath="$PROJECT_DIR$/common/kotlinnative-app.common.iosTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/kotlinnative-app.common.jvmMain.iml" filepath="$PROJECT_DIR$/common/kotlinnative-app.common.jvmMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/kotlinnative-app.common.jvmTest.iml" filepath="$PROJECT_DIR$/common/kotlinnative-app.common.jvmTest.iml" />
     </modules>
   </component>
 </project>

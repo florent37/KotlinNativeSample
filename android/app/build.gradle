@@ -16,7 +16,7 @@ apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId 'com.jetbrains.kotlinconf'
+        applicationId 'com.github.florent37.kotlin.sample'
         minSdkVersion 16
         targetSdkVersion 27
         multiDexEnabled true
@@ -36,11 +36,9 @@ android {
     flavorDimensions "server"
     productFlavors {
         local {
-            buildConfigField("String", "API_URL", "\"https://api.kotlinconf.com\"")
             dimension "server"
         }
         prod {
-            buildConfigField("String", "API_URL", "\"https://api.kotlinconf.com\"")
             dimension "server"
         }
     }
