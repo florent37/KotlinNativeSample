@@ -1,14 +1,15 @@
 import UIKit
 import common
 
-class GithubViewController: UIViewController, GithubView {
+class GithubViewController: UIViewController, GithubView, UITableViewDataSource {
     
     @IBOutlet weak var progressView: UIActivityIndicatorView!
     
+    @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var progress: UIActivityIndicatorView!
     @IBOutlet weak var userSearch: UITextField!
    
-    // private var repos: [Repository] = []
+    private var repos: [Repository] = []
     @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var userName: UILabel!
     @IBOutlet weak var company: UILabel!
@@ -33,6 +34,7 @@ class GithubViewController: UIViewController, GithubView {
     }
     
     override func viewDidLoad() {
+        self.tableView.dataSource = self
         presenter.bind(view: self)
     }
     
@@ -55,7 +57,19 @@ class GithubViewController: UIViewController, GithubView {
     }
     
     func displayRepos(repos: [Repository]) {
-        dependencies().logger.log(tag: "TAG", text: repos.description)
+        //dependencies().logger.log(tag: "TAG", text: repos.description)
+        self.repos = repos
+        self.tableView.reloadData()
     }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return repos.count
+    }
+    
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "RepoCell") as! RepoCell
+        cell.bindRepo(repos[indexPath.row])
+        return cell
+    }
+
 }

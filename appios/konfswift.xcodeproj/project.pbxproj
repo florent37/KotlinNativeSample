@@ -20,6 +20,7 @@
 		E5099D1A2189CE6A00BCAF67 /* common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E5099D182189CE6A00BCAF67 /* common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E53662812188660600801175 /* DependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53662802188660600801175 /* DependencyManager.swift */; };
 		E53662832188940D00801175 /* PlatformLoggerIos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53662822188940D00801175 /* PlatformLoggerIos.swift */; };
+		E55224D12199DF2600AB2620 /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55224D02199DF2600AB2620 /* RepoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		E5099D182189CE6A00BCAF67 /* common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = common.framework; path = ../common/build/bin/ios/main/debug/framework/common.framework; sourceTree = "<group>"; };
 		E53662802188660600801175 /* DependencyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyManager.swift; sourceTree = "<group>"; };
 		E53662822188940D00801175 /* PlatformLoggerIos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformLoggerIos.swift; sourceTree = "<group>"; };
+		E55224D02199DF2600AB2620 /* RepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCell.swift; sourceTree = "<group>"; };
 		ECEBBE2F215D3E02006A5027 /* common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = common.framework; path = build/konan/bin/xcode/common.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,6 +144,7 @@
 				D30D00A7214D087900CD1184 /* UI.swift */,
 				E53662802188660600801175 /* DependencyManager.swift */,
 				E53662822188940D00801175 /* PlatformLoggerIos.swift */,
+				E55224D02199DF2600AB2620 /* RepoCell.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				2C6393421F743F15004953A3 /* GithubViewController.swift in Sources */,
 				2C50FD941F729FE000B3F845 /* AppDelegate.swift in Sources */,
 				E53662832188940D00801175 /* PlatformLoggerIos.swift in Sources */,
+				E55224D12199DF2600AB2620 /* RepoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
