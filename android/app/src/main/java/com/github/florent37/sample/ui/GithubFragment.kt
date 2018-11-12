@@ -2,6 +2,7 @@ package com.github.florent37.sample.ui
 
 import android.os.*
 import android.support.v4.app.Fragment
+import android.support.v7.widget.LinearLayoutManager
 import android.util.Log
 import android.view.*
 import android.view.KeyEvent.KEYCODE_ENTER
@@ -17,6 +18,9 @@ import kotlinx.android.synthetic.main.fragment_user.*
 class GithubFragment : Fragment(), GithubView {
 
     private val presenter by lazy { dependencies(context!!).githubPresenter() }
+    private var adapter = GithubAdapter{
+
+    }
 
     override var isLoading: Boolean = false
         set(value) {
@@ -38,6 +42,9 @@ class GithubFragment : Fragment(), GithubView {
             }
             false
         }
+
+        recyclerView.adapter = adapter
+        recyclerView.layoutManager = LinearLayoutManager(context!!)
     }
 
     override fun onDestroy() {
@@ -52,6 +59,7 @@ class GithubFragment : Fragment(), GithubView {
     }
 
     override fun displayRepos(repos: List<Repository>) {
+        adapter.data = repos
     }
 
     override fun showError(error: Throwable) {

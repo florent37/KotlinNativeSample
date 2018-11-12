@@ -4,7 +4,6 @@ import android.app.Application
 import android.content.Context
 import android.util.Log
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.android.Main
 import com.github.florent37.kotlinnative.log.PlatformLogger
 import com.github.florent37.kotlinnative.data.GithubRepositoryImpl
 import com.github.florent37.kotlinnative.presentation.GithubPresenter

@@ -49,7 +49,7 @@ class GithubApi(val logger: PlatformLogger) {
         val json = response.readText()
 
         logger.log("JSON", json)
-        val list = JSON.nonstrict.parseList<Repository>(json)
+        val list = JSON.nonstrict.parse(Repository.serializer().list,json)
 
         logger.log("JSON", "deserialized !!!!")
 

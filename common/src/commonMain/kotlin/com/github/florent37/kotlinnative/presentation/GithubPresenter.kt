@@ -4,6 +4,7 @@ import kotlinx.coroutines.launch
 import com.github.florent37.kotlinnative.*
 import com.github.florent37.kotlinnative.data.Repository
 import com.github.florent37.kotlinnative.model.UserModel
+import kotlinx.coroutines.GlobalScope
 import kotlin.coroutines.*
 
 class GithubPresenter(
@@ -23,7 +24,7 @@ class GithubPresenter(
 
     fun loadUser(name: String) {
         view?.isLoading = true
-        launch(uiContext) {
+        GlobalScope.launch(uiContext) {
             try {
                 repository.getUser(name)?.let { user ->
                     val userModel = UserModel(
@@ -36,13 +37,6 @@ class GithubPresenter(
             }catch (e: Exception){
                 view?.showError(e)
             }
-            view?.isLoading = false
-        }
-    }
-
-    fun loadRepos(name: String) {
-        view?.isLoading = true
-        launch(uiContext) {
             try {
                 repository.getUserRepos(name)?.let { repositories ->
                     view?.displayRepos(repositories)

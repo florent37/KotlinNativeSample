@@ -55,6 +55,7 @@ class GithubViewController: UIViewController, GithubView {
     }
     
     func displayRepos(repos: [Repository]) {
+        dependencies().logger.log(tag: "TAG", text: repos.description)
     }
     
 }
